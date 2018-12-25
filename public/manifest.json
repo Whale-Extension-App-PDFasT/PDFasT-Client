@@ -1,0 +1,21 @@
+{
+	"name": "PDFasT",
+	"version": "2.0.1",
+	"manifest_version": 2,	
+	"description": "PDF에서도 번역,메모,검색 등  퀵서치가 가능한 확장앱",
+	"author": "KANG TAE UK, MOON YONG HO, JEON GA BIN",
+	"icons" : {"128": "icon6.png"},
+	"sidebar_action": {
+		"default_page": "index.html",
+		"default_icon": {
+			"128": "icon6.png"
+		},
+		"default_title": "PDFasT",
+		"use_navigation_bar": false
+	},
+	"permissions": [
+        "activeTab",
+        "<all_urls>",
+        "tabs"
+	]
+}
